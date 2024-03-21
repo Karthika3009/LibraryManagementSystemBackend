@@ -12,14 +12,14 @@ The Library Management System is a simple software application and it is console
 
 ### Key Features
  
-- **Add New Books to Library**: Librarians can add new books to the library, providing details such as title, author, publish year, keyword, etc.
-- ** Manage Students**:
+- **Add New Books to Library**: Librarians can add new books to the library, providing details such as title, author, publish year, keyword, etc
+-  **Manage Students**:
      1. **Add**: Librarians can add new students to the library system.
      2. **Modify**: Update student details such as name, status, etc.
      3. **Block**: Disable student accounts temporarily or permanently.
      4. **Remove**: Permanently delete student records from the system.
 	
-- ** Manage Students**:
+- **Manage Books by students**:
      1. **Request Book**: Students can request to borrow books from the library.
      2. **Return Book**:  Students can return borrowed books within the specified due date.
      3. **Renew Book**: Students should renew books within the specified due date.	
@@ -35,14 +35,14 @@ The Library Management System is a simple software application and it is console
 ## Installation
  
 ### Database Setup
-1. Install the provided SQL (Library_SQL.SQL) file in your MySQL Workbench.
+1. Install the provided SQL (LibrarySQL.SQL) file in your MySQL Workbench.
 2. This file contains the necessary database schema and initial data required for the Library Management System to function properly.
  
 ### Configuration
 1. Open the `pdf.java` file in your preferred text editor.
 2. Locate the following lines of code:
     ```java
-    private static final String pdfDirectory = "D:/jdk-11.0.2/Library/pdf"; //Change the Pdf Directory to your location   
+    private static final String pdfDirectory = "D:/jdk-11.0.2/Library_v01/pdf"; //Change the Pdf Directory to your location   
     private static final String pdfName = "hello.pdf";
     ```
 3. Modify the `pdfDirectory` variable to specify the directory where PDF files will be saved.
